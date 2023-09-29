@@ -1,6 +1,6 @@
 html {
 
-  background: linear-gradient(177.52deg, #0182eb15 2.11%, #002c50 85.5%);
+  background: linear-gradient(177.52deg, #0182eb15 2.11%, #0a5da0 85.5%);
   background-repeat: no-repeat;
   height: 100%;
 }
@@ -92,4 +92,8 @@ footer {
 
 footer p {
   margin: 6px 0;
+}
+
+i {
+  font-size: 18px;
 }
