@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0 ;
+  padding: 20px 0 ;
 }
 
 .logo {
@@ -21,9 +21,9 @@ body {
 }
 
 label {
-  color: #5F00A9;
-  font-weight: 700;
-  font-size: 26px;
+  color: #3235f8;
+  font-weight: 500;
+  font-size: 22px;
 }
 
 form {
@@ -31,9 +31,9 @@ form {
 }
 
 .button {
-  border: solid 4px #5F00A9;
+  border: solid 4px #3235f8;
   border-radius: 6px;
-  color: #5F00A9;
+  color: #3235f8;
   background-color: #0e0e0e;
   padding: 0 30px;
   margin-left: 8px;
@@ -42,13 +42,13 @@ form {
 }
 
 .button:hover {
-  background-color: #5F00A9;
+  background-color: #3235f8;
   color: #fafafa;
 }
 
 h2 {
   font-size: 20px;
-  color: #5F00A9;
+  color: #3235f8;
 }
 
 
@@ -57,7 +57,7 @@ h2 {
 }
 
 .borda-lista {
-  border-bottom: solid 1px #5F00A9;
+  border-bottom: solid 1px #3235f8;
 }
 
 input:disabled {
@@ -70,14 +70,14 @@ input:disabled {
 input {
   border: none;
   background: none;
-  color: #5e5e5e;
+  color: #595bf1;
 }
 
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #5F00A9;
+  background-color: #3235f8;
   position: sticky;
   height: 40px;
   font-size: 14px;
