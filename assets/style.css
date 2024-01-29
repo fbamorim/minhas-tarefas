@@ -1,45 +1,29 @@
 html {
-
-  background: linear-gradient(177.52deg, #0182eb15 2.11%, #0a5da0 85.5%);
-  background-repeat: no-repeat;
-  height: 100%;
+  background-color: #131212;
 }
 
 body {
   font-family: 'Inter', 'sans-serif';
-  font-size: 16px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
-
-h2 {
-  font-size: 18px;
-  color: #1E90FF;
-}
-
 
 .top {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  padding: 40px 0 ;
 }
 
 .logo {
-  max-width:150px;
-  max-height:100px;
-  width: auto;
-  height: auto;
-}
-
-.title {
-  text-align: center;
-  margin-left: 15px;
-  color: #1E90FF;
+  width: 200px;
 }
 
 label {
-  color: #1E90FF;
-  font-weight: bold;
-  font-size: 18px;
+  color: #5F00A9;
+  font-weight: 700;
+  font-size: 26px;
 }
 
 form {
@@ -47,51 +31,63 @@ form {
 }
 
 .button {
-  border: none;
-  color: #FFF;
-  background-color: #03C03C	;
-  border-radius: 2px;
-  padding: 0 16px;
+  border: solid 4px #5F00A9;
+  border-radius: 6px;
+  color: #5F00A9;
+  background-color: #0e0e0e;
+  padding: 0 30px;
   margin-left: 8px;
-  font-weight: bold;
+  font-weight: 600;
+  transition: all 0.5s;
 }
 
 .button:hover {
-  background-color: #4ed376;
-  color: #FFF;
+  background-color: #5F00A9;
+  color: #fafafa;
 }
+
+h2 {
+  font-size: 20px;
+  color: #5F00A9;
+}
+
 
 .itens-comprados {
   text-decoration: line-through;
 }
 
 .borda-lista {
-  border-bottom: solid 1px #1E90FF;
+  border-bottom: solid 1px #5F00A9;
 }
 
 input:disabled {
+  font-weight: 400;
   border: none;
   background: none;
-  color: black;
+  color: #0e0e0e;
 }
 
 input {
   border: none;
   background: none;
-  color: black;
+  color: #5e5e5e;
 }
 
 footer {
-  border-top: solid 1px #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5F00A9;
+  position: sticky;
+  height: 40px;
   font-size: 14px;
-  bottom: 0;
-  position: fixed;
   width: 100%;
   text-align: center;
 }
 
 footer p {
-  margin: 6px 0;
+  margin: 5px 0;
+  font-weight: 400;
 }
 
 i {
